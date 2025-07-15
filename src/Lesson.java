@@ -266,6 +266,26 @@ public class Lesson {
             System.out.println(k + ", " + z + ", " + y + ", " + x);
         }
 
+        int weekDay = 1;
+        switch (weekDay) {
+            case 1:
+            case 3:
+            case 5:
+                System.out.println("Dasi enq");
+                break;
+            case 0:
+            case 2:
+            case 4:
+                System.out.println("dasi chenq");
+                break;
+            case 7:
+                System.out.println("azat or");
+                break;
+            default:
+                System.out.println(2);
+
+        }
+
     }
 
     ;
